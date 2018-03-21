@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="765a21ab-278c-4361-87f8-bba27a11166c"
+mode="Desktop"
+rxversion="8.0">
+	<name>
+		Open
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Open"
+	namespace="RanorexPilot">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				http://www.botiweb.com.br
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="58d7d584-19be-4f85-b4d7-8d616af5d01c"
+	name="RanorexPilotRepository"
+	relativepath="RanorexPilotRepository.rxrep"
+	rxversion="8.0">
+		<codegen
+		classname="RanorexPilotRepository"
+		namespace="RanorexPilot">
+		</codegen>
+		<rootfolder
+		id="d1fafe04-e015-45ac-af71-0b54eb71132b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Open.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

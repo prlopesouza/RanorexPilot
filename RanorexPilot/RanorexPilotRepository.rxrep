@@ -1,0 +1,79 @@
+﻿<repository
+id="58d7d584-19be-4f85-b4d7-8d616af5d01c"
+name="RanorexPilotRepository"
+rxversion="8.0">
+	<codegen
+	classname="RanorexPilotRepository"
+	namespace="RanorexPilot">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="d1fafe04-e015-45ac-af71-0b54eb71132b"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="27f90b38-240e-4a5a-8e90-bcc113578ada"
+		isrooted="True"
+		name="Botiweb"
+		refpath="/dom[@domain='www.botiweb.com.br']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="5f974f35-fe36-4599-b28d-00ea88f31111"
+			name="TxtUsuario"
+			refimgid="15da8950-18ab-45ae-9163-86e8e9bc71ff"
+			refpath="/dom[@domain='www.botiweb.com.br']//input[#'txtUsuario']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.botiweb.com.br']//input[#'txtUsuario']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="6d65de00-afa1-457b-a9d0-ea4960fa3701"
+			name="TxtSenha"
+			refimgid="8bf308eb-a134-476d-a622-3157ffd4346a"
+			refpath="/dom[@domain='www.botiweb.com.br']//input[#'txtSenha']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.botiweb.com.br']//input[#'txtSenha']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="70015711-f382-440e-b5c6-facf22c3b5a2"
+			name="SpanTagOK"
+			refimgid="43f04e31-fb0f-4f2f-837d-81dbea7b1b0c"
+			refpath="/dom[@domain='www.botiweb.com.br']//a[#'linkOk']/div/span[@innertext='OK']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.botiweb.com.br']//a[#'linkOk']/?/?/span[@innertext='OK']
+			</item>
+			<basepath>
+				/dom[@domain='www.botiweb.com.br']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
