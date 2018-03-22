@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="30510032-78fb-4457-b1d9-25f0c055d3d1"
+mode="Desktop"
+rxversion="8.0">
+	<name>
+		Close
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Close"
+	namespace="RanorexPilot">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="1000ms"
+		method="KillProcess"
+		optional="False"
+		searchpropertyid="3ae64178-c516-4637-ba0e-d4df68f077d7">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="27f90b38-240e-4a5a-8e90-bcc113578ada"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='www.botiweb.com.br']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="58d7d584-19be-4f85-b4d7-8d616af5d01c"
+	name="RanorexPilotRepository"
+	relativepath="RanorexPilotRepository.rxrep"
+	rxversion="8.0">
+		<codegen
+		classname="RanorexPilotRepository"
+		namespace="RanorexPilot">
+		</codegen>
+		<rootfolder
+		id="d1fafe04-e015-45ac-af71-0b54eb71132b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Close.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
