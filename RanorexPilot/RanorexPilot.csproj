@@ -137,6 +137,18 @@
       <UserCode>true</UserCode>
       <id>c1d1c20f-bd26-41d6-9ba0-d57485e72e37</id>
     </Compile>
+    <Compile Include="Google.cs">
+      <BoundTo>99860c7f-1514-4169-b753-de04fbae4e1f</BoundTo>
+      <DependentUpon>Google.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4b162e65-a3ae-4a2d-83d1-37cdcd0b1096</id>
+    </Compile>
+    <Compile Include="Google.UserCode.cs">
+      <BoundTo>99860c7f-1514-4169-b753-de04fbae4e1f</BoundTo>
+      <DependentUpon>Google.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d4dd4e36-2da1-48ca-9773-bf15eec97e1e</id>
+    </Compile>
     <Compile Include="Login.cs">
       <BoundTo>90f55d93-c3b4-4759-bc6d-6bbd8dec4a64</BoundTo>
       <DependentUpon>Login.rxrec</DependentUpon>
@@ -179,6 +191,11 @@
       <BoundTo>31695ab3-3003-4fb4-abc4-0ba2dc60b0e9</BoundTo>
       <id>d7e1edf3-e874-4278-a5a6-3e367b7a47de</id>
       <recordtableid>30510032-78fb-4457-b1d9-25f0c055d3d1</recordtableid>
+    </None>
+    <None Include="Google.rxrec">
+      <BoundTo>31695ab3-3003-4fb4-abc4-0ba2dc60b0e9</BoundTo>
+      <id>99860c7f-1514-4169-b753-de04fbae4e1f</id>
+      <recordtableid>61cc3f89-af41-45ca-849d-5acccf8fd445</recordtableid>
     </None>
     <None Include="Login.rxrec">
       <BoundTo>31695ab3-3003-4fb4-abc4-0ba2dc60b0e9</BoundTo>
