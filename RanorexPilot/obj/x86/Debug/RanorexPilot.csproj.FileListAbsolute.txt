@@ -1,9 +1,0 @@
-C:\Users\Paulo\Documents\Ranorex\RanorexStudio Projects\RanorexPilot\RanorexPilot\bin\Debug\RanorexPilot.rxtmg
-C:\Users\Paulo\Documents\Ranorex\RanorexStudio Projects\RanorexPilot\RanorexPilot\bin\Debug\RanorexPilot.rxtst
-C:\Users\Paulo\Documents\Ranorex\RanorexStudio Projects\RanorexPilot\RanorexPilot\bin\Debug\RanorexPilot.exe.config
-C:\Users\Paulo\Documents\Ranorex\RanorexStudio Projects\RanorexPilot\RanorexPilot\bin\Debug\RanorexPilot.exe
-C:\Users\Paulo\Documents\Ranorex\RanorexStudio Projects\RanorexPilot\RanorexPilot\bin\Debug\RanorexPilot.pdb
-C:\Users\Paulo\Documents\Ranorex\RanorexStudio Projects\RanorexPilot\RanorexPilot\bin\Debug\Ranorex.Core.Resolver.dll
-C:\Users\Paulo\Documents\Ranorex\RanorexStudio Projects\RanorexPilot\RanorexPilot\obj\x86\Debug\RanorexPilot.csprojResolveAssemblyReference.cache
-C:\Users\Paulo\Documents\Ranorex\RanorexStudio Projects\RanorexPilot\RanorexPilot\obj\x86\Debug\RanorexPilot.exe
-C:\Users\Paulo\Documents\Ranorex\RanorexStudio Projects\RanorexPilot\RanorexPilot\obj\x86\Debug\RanorexPilot.pdb
