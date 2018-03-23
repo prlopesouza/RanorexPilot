@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.0">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<testmodule
+			id="3300122a-3cce-4c5e-ac23-fc354c197e0f"
+			name="Open"
+			ref="765a21ab-278c-4361-87f8-bba27a11166c"
+			type="Recording">
+			</testmodule>
+			<modulegroups
+			id="5ee04789-2956-4965-a4ff-93f502b2cf35"
+			name="RanorexPilot">
+			</modulegroups>
+			<modulegroupdef
+			id="d889c363-230b-43cf-8a9f-978d836dce70"
+			name="OpenLogin">
+			</modulegroupdef>
+			<testmodule
+			id="e4c08ea9-c551-44c6-8d33-1b00b82bc006"
+			name="Login"
+			ref="f00b10f9-f13a-4bf6-8c54-37328f150630"
+			type="Recording">
+			</testmodule>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="5ee04789-2956-4965-a4ff-93f502b2cf35"
+			name="RanorexPilot">
+				<modulegroupdef
+				id="d889c363-230b-43cf-8a9f-978d836dce70"
+				name="OpenLogin">
+					<testmodule
+					id="3300122a-3cce-4c5e-ac23-fc354c197e0f"
+					name="Open">
+					</testmodule>
+					<testmodule
+					id="e4c08ea9-c551-44c6-8d33-1b00b82bc006"
+					name="Login">
+					</testmodule>
+				</modulegroupdef>
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>
