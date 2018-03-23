@@ -13,10 +13,11 @@ rxversion="8.0">
 			TracingScreenshotQuality="40"
 			enabletracingscreenshots="True"
 			id="35441348-9faa-468b-9224-443cbaf7a721"
+			junitreport="True"
 			name="RanorexPilot"
 			placescreenshotsinfolder="True"
-			reportcompress="False"
-			reportfilename="%S_%Y%M%D_%T.rxlog"
+			reportcompress="True"
+			reportfilename="%S_%Y%M%D_%T.html"
 			reporttemplatefolder=""
 			reportwriteinterval="30000ms"
 			showinvisiblechars="True">
@@ -110,6 +111,24 @@ rxversion="8.0">
 	</datasources>
 	<testconfigurations
 	default="TestRun">
+		<testconfiguration
+		name="OnlyBW">
+			<testcontainer
+			id="1380e1a2-d2bc-48b6-ae9f-23faabb58495">
+			</testcontainer>
+			<testcontainer
+			id="9f73a84f-8b6e-4236-9d59-4546e317afbc">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="OnlyGoogle">
+			<testcontainer
+			id="9f73a84f-8b6e-4236-9d59-4546e317afbc">
+			</testcontainer>
+			<testcontainer
+			id="ae2eeb55-e41c-455d-bdda-8a2d2283ca17">
+			</testcontainer>
+		</testconfiguration>
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
